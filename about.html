@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="myScript.js"></script>
+    </head>
+    <body id="header">
+    <header>
+        <img src="images/star.png">   
+    </header>
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/Design.jpeg" style="width:60%" alt="design">
+      <div class="text">Graphics Designing</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/branding.jpeg" alt="branding" style="width:55%">
+      <div class="text">Branding</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="images/photography4.jpg" alt="photography" style="width:100%">
+      <div class="text">Photography</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/Glow.jpeg" alt="logo" style="width:60%">
+        <div class="text">Logo</div>
+      </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/portfolio1.jpeg" alt="portfolio" style="width:90%">
+        <div class="text">Portfolio</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/UI-UX.png" alt="UI-UX" style="width:60%">
+        <div class="text">UI-UX</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+    <!--About-->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/CEO.jpg">
+            <figcaption>Glory Kinya <br> <b style="color: rgb(82, 59, 3); font-size: 25px;">Founder, CEO:</b> Glow Techs Co.</figcaption>
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p><b style="color:slateblue;">Glow Techs</b> is a private corporation aimed at <b>Graphics designing</b>. 
+                    It was launched in November 2022, with its roots in Kenya but operating globally. <br> <br>I specialize extensively at UX Designing which 
+                    involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, 
+                    usability and function, but also other areas of Graphics Designing. Here, you will find all the info you need about Graphics Designing. 
+                    In case of any queries, please contact me via any of my socials. Thank you!</p> <br> <br>
+                    <div class="line">
+                        <span class="line-1"></span> <br>
+                        <span class="line-2"></span> <br>
+                        <span class="line-3"></span>
+                    </div>
+                    <h2>"Designers are meant to be loved, not to be understood."</h2>
+                    <h3>--- Margaret Oscar, designer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Social icons-->
+    <nav id="sideNav">
+        <div class="social-icons">
+            <figure><a href="https://instagram.com/glow_kiki1703?igshid=ZDdkNTZiNTM="><img src="images/instagram.png" ></a></figure>
+            <figure><a href="https://twitter.com/kiki_glow?t=QF_JHBv0X3W81mVOOHNGnw&s=08"><img src="images/twitter.jpeg"></a></figure>
+            <figure><a href="https://www.linkedin.com/in/glory-kinya-327337244"><img src="images/linkedin.png"></a></figure>
+            <figure><a href="https://github.com/kiki-glow"><img src="images/GitHub.png"></a></figure>
+            <figure><a href="https://pin.it/3jNmvr6"><img src="images/pinterest.jpeg"></a></figure>
+        </div>
+    </nav>
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Services</h4>
+                        <small>Our Plan</small> <br>
+                        <small>Free Trial</small>
+                    </div> <br>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small> <br>
+                        <small>FAQs</small>
+                    </div> <br>
+                    <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small> <br>
+                        <small>Contact Us</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>kiki1703m@gmail.com</small><br>
+                        <small>&copy;Glow Techs 2023&infin;</small>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="images/star.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+
+</html>
