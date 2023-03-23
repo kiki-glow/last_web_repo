@@ -132,23 +132,6 @@ h1 {
     cursor: pointer;
 }
 
-table{
-    border: 2px;
-    width: 100%;
-    height: 100%;
-}
-tr.middle {
-    height: 650px;
-}
-
-.a-links{
-    color: rgb(8, 8, 176);
-}
-iframe{
-    width: 100%;
-    height: 100%;
-}
-
 p {
     font-size: 15px;
     line-height: 18px;
@@ -424,6 +407,7 @@ hr{
     margin: 20px auto 0;
     cursor: pointer;
 }
+
 #sideNav {
     width: 250px;
     height: 100vh;
@@ -444,5 +428,67 @@ nav div figure a {
     color: #fff;
 }
 
+@media only screen and (max-width: 770px){
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text {
+        margin-top: 100px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+    .common-btn{
+        padding: 10px 16px;
+        background: transparent;
+        border: 1px solid #f67c92;
+        cursor: pointer;
+    }
+    .social-icons img{
+        width: 14px;
+        margin: 15px auto;
+        cursor: pointer;
+    }
+    nav{
+        display:flex;
+        align-items: center;
+    }
+    .about-left-col,.about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 50px 5px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+        font-style: italic;
+    }
+    .services-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+    }
+    .contact-right-col img{
+        width: 100%;
+        height: auto;
+        align-items: end;
+    }
+    .flex-left-col, .footer-right-col{
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+}
 
 
