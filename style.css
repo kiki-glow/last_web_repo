@@ -1,15 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
   position: relative;
   margin: auto;
+  display: inline-block;
 }
 
 /* Hide the images by default */
@@ -20,12 +20,12 @@
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   margin-top: -22px;
   padding: 13px;
-  color: rgb(248, 81, 117);
+  color: rgb(246, 105, 135);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -46,11 +46,11 @@
 
 /* Caption text */
 .text {
-  color: rgb(218, 158, 6);
-  font-size: 19px;
+  color: rgb(242, 9, 184);
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   width: 100%;
   text-align: center;
 }
