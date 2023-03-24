@@ -479,7 +479,7 @@ nav div figure a {
     }
     .contact-right-col img{
         width: 100%;
-        height: auto;
+        height: 40vh;
         align-items: end;
     }
     .flex-left-col, .footer-right-col{
