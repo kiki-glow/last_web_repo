@@ -17,6 +17,10 @@
   display: none;
   align-content: center;
 }
+.mySlides img{
+    width: 180px;
+    height: 200px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
