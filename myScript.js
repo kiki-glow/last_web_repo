@@ -33,3 +33,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function validateForm(){
+  let x = document.form["myForm"]["fname"].value;
+  if(x == "") 
+  {
+    alert("Name must be filled out!");
+    return false;
+  }
+}
+

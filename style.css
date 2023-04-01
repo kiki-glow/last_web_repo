@@ -15,6 +15,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  align-content: center;
 }
 
 /* Next & previous buttons */
@@ -212,15 +213,13 @@ nav img{
 }
 .about-left-col {
     flex-basis: 50%;
-}
-.about-left-col img{
-    width: 100%;
-}
-.about-left-col{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #77041f;
+}
+.about-left-col img{
+    width: 100%;
 }
 .about-right-col{
     flex-basis: 50%;
@@ -260,7 +259,10 @@ nav img{
     text-align: center;
 }
 .services-col img{
-    width: 100px;
+    margin-left: 15px ;
+    margin-right: 15px;
+    width: 165px;
+    height: 170px;
 }
 
 .services-col h3{

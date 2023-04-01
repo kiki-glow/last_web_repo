@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Contact Us</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <script src="myScript.js"></script>
-    </head>
-    <body id="header">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="myScript.js"></script>
+</head>
+
+<body id="header">
     <header>
         <img src="images/logo.png">
     </header>
@@ -25,69 +27,69 @@
     </nav>
 
     <!-- Slideshow container -->
-<div class="slideshow-container">
+    <div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 6</div>
-        <img src="images/Design.jpeg" style="width:90%; height: 50vh;" alt="design">
-        <div class="text">Graphics Designing</div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 6</div>
-        <img src="images/branding.jpeg" alt="branding" style="width:70%; height: 50vh;">
-        <div class="text">Branding</div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 6</div>
-        <img src="images/photography4.jpg" alt="photography" style="width:60%; height: 50vh;">
-        <div class="text">Photography</div>
-      </div>
-  
-      <div class="mySlides fade">
-          <div class="numbertext">4 / 6</div>
-          <img src="images/Glow.jpeg" alt="logo" style="width:100%; height: 50vh;">
-          <div class="text">Logo</div>
-        </div>
-  
-      <div class="mySlides fade">
-          <div class="numbertext">5 / 6</div>
-          <img src="images/portfolio1.jpeg" alt="portfolio" style="width:80%; height: 50vh;">
-          <div class="text">Portfolio</div>
-        </div>
-  
+        <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <div class="numbertext">6 / 6</div>
-          <img src="images/UI-UX.png" alt="UI-UX" style="width:60%; height: 50vh;">
-          <div class="text">UI-UX</div>
+            <div class="numbertext">1 / 6</div>
+            <img src="images/Design.jpg" style="width:90%; height: 50vh;" alt="design">
+            <div class="text">Graphics Designing</div>
         </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-  </div>
 
-     <!--Contact Us-->
-     <section id="contact">
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/branding.jpeg" alt="branding" style="width:70%; height: 50vh;">
+            <div class="text">Branding</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/photography4.jpg" alt="photography" style="width:60%; height: 50vh;">
+            <div class="text">Photography</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/Glow.jpeg" alt="logo" style="width:100%; height: 50vh;">
+            <div class="text">Logo</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/portfolio1.jpeg" alt="portfolio" style="width:80%; height: 50vh;">
+            <div class="text">Portfolio</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/UI-UX.png" alt="UI-UX" style="width:60%; height: 50vh;">
+            <div class="text">UI-UX</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!--Contact Us-->
+    <section id="contact">
         <div class="container contact-row">
             <div class="contact-left-col">
                 <h1>Contact Us</h1>
-                <form>
-                    <input type="text" placeholder="Enter Your Name">
-                    <input type="email" placeholder="Enter Your Email">
+                <form name="myForm" method="post" action="mailto:glowkiki0@gmail.com" onsubmit="return ValidateForm()">
+                    <input type="text" name="fname" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email" required>
                     <textarea cols="15" rows="10" placeholder="Write your comments here"></textarea>
                     <br><br>
                     <input type="submit" name="submit" style="width: 70px;"></input>
@@ -95,9 +97,9 @@
                 <div itemscope>
                     <img src="images/call.png">
                     Phone: <span itemprop="telephone"><a href="tel:+254798860266">
-                    0798860266</a></span>
-                    </div>
-                    <h4 style="color: goldenrod">Contact us via any of our socials!</h4>
+                            0798860266</a></span>
+                </div>
+                <h4 style="color: goldenrod">Contact us via any of our socials!</h4>
                 <div class="line">
                     <span class="line-1"></span> <br>
                     <span class="line-2"></span> <br>
@@ -147,16 +149,19 @@
         </div>
     </section>
 
-     <!--Social icons-->
-     <nav id="sideNav">
+    <!--Social icons-->
+    <nav id="sideNav">
         <div class="social-icons">
-            <figure><a href="https://instagram.com/glow_kiki1703?igshid=ZDdkNTZiNTM="><img src="images/instagram.png" ></a></figure>
-            <figure><a href="https://twitter.com/kiki_glow?t=QF_JHBv0X3W81mVOOHNGnw&s=08"><img src="images/twitter.jpeg"></a></figure>
-            <figure><a href="https://www.linkedin.com/in/glory-kinya-327337244"><img src="images/linkedin.png"></a></figure>
+            <figure><a href="https://instagram.com/glow_kiki1703?igshid=ZDdkNTZiNTM="><img
+                        src="images/instagram.png"></a></figure>
+            <figure><a href="https://twitter.com/kiki_glow?t=QF_JHBv0X3W81mVOOHNGnw&s=08"><img
+                        src="images/twitter.jpeg"></a></figure>
+            <figure><a href="https://www.linkedin.com/in/glory-kinya-327337244"><img src="images/linkedin.png"></a>
+            </figure>
             <figure><a href="https://github.com/kiki-glow"><img src="images/GitHub.png"></a></figure>
             <figure><a href="https://pin.it/3jNmvr6"><img src="images/pinterest.jpeg"></a></figure>
         </div>
     </nav>
-</body>  
+</body>
 
 </html>
